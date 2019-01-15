@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default class PageTwo extends React.Component{
+export default class Index extends React.Component{
 	render() {
 		return (
 			<div>
-				page2
+				index
 			</div>
 		);
 	}

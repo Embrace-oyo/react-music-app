@@ -1,16 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import {BrowserRouter, Route} from 'react-router-dom';
 import App from './app.js';
+import ReactDOM from 'react-dom';
+import './until/flexable'
 import './static/css/reset.styl';
+import './static/css/base.styl';
 // =====================================
 
 
 
 ReactDOM.render((
-		<BrowserRouter>
-			<Route path="/" component={App}/>
-		</BrowserRouter>
+		<App></App>
 	),
 	document.getElementById('root')
 );

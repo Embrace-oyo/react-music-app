@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-export class PageOne extends React.Component{
+export default class PageOne extends React.Component{
 	render() {
 		return (
 			<div>

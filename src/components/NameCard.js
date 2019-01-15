@@ -1,6 +1,6 @@
 import React from 'react';
 
-export class NameCard extends React.Component{
+export default class NameCard extends React.Component{
 	render() {
 		let data = {
 			name: '盛世嫡妃',
