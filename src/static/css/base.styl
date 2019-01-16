@@ -1,4 +1,25 @@
 $fontSize12 = 0.32rem
 $fontSize14 = 0.373rem
 $fontSize16 = 0.426rem
-@import "app.styl"
+@import "index.styl"
+
+body
+  &:after
+    content ''
+    width: 100%
+    overflow hidden
+    background-image url('../imgs/bg.jpg')
+    background-size cover
+    position absolute
+    top 0
+    left 0
+    bottom 0
+    right 0
+    filter blur(2px);
+#root
+  position relative
+  top 0
+  left 0
+  bottom 0
+  right 0
+  z-index 1

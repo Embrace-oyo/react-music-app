@@ -405,7 +405,8 @@ module.exports = function(webpackEnv) {
               sideEffects: true,
             },
 	          {
-		          test: /\.styl$/,
+		          test: stylusRegex,
+              exclude: stylusModuleRegex,
 		          loaders: ['style-loader', 'css-loader', 'stylus-loader']
 	          },
 	          {

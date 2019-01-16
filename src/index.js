@@ -1,6 +1,6 @@
 import React from 'react';
-import App from './app.js';
 import ReactDOM from 'react-dom';
+import RouterConfig from './router/routerConfig'
 import './until/flexable'
 import './static/css/reset.styl';
 import './static/css/base.styl';
@@ -9,7 +9,7 @@ import './static/css/base.styl';
 
 
 ReactDOM.render((
-		<App></App>
+		<RouterConfig></RouterConfig>
 	),
 	document.getElementById('root')
 );
